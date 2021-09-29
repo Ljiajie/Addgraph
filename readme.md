@@ -1,1 +1,2 @@
+Code for reproducing key results in the paper AddGraph: Anomaly Detection in Dynamic Graph Using Attention-based Temporal GCN by Li Zheng, Zhenpeng Li, Jian Li, Zhao Li and Jun Gao.
 Addgraph frame uses UCI and DIGG dataset.
