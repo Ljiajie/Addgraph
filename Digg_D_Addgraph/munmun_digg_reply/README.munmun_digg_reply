@@ -1,0 +1,63 @@
+Digg network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the munmun_digg_reply network:
+
+This is the reply network of the social news website Digg. Each node in the network is a user of the website, and each directed edge denotes that a user replied to another user.
+
+
+More information about the network is provided here: 
+http://konect.uni-koblenz.de/networks/munmun_digg_reply
+
+Files: 
+    meta.munmun_digg_reply -- Metadata about the network 
+    out.munmun_digg_reply -- The adjacency matrix of the network in space separated values format, with one edge per line
+      The meaning of the columns in out.munmun_digg_reply are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column: edge weight
+        Fourth column: timestamp of the edge
+
+
+Complete documentation about the file format can be found in the KONECT
+handbook, in the section File Formats, available at:
+
+http://konect.uni-koblenz.de/publications
+
+All files are licensed under a Creative Commons Attribution-ShareAlike 2.0 Germany License.
+For more information concerning license visit http://konect.uni-koblenz.de/license.
+
+
+
+Use the following References for citation:
+
+@MISC{konect:2016:munmun_digg_reply,
+    title = {Digg network dataset -- {KONECT}},
+    month = sep,
+    year = {2016},
+    url = {http://konect.uni-koblenz.de/networks/munmun_digg_reply}
+}
+
+@inproceedings{konect:choudhury09,
+        title = {Social Synchrony: Predicting Mimicry of User Actions in
+                  Online Social Media},  
+        author = {Choudhury, Munmun De and Sundaram, Hari and John,
+                  Ajita and Seligmann, Dorée Duncan}, 
+        booktitle = {Proc. Int. Conf. on Computational Science and
+                  Engineering},  
+        year = {2009}, 
+        pages = {151--158}, 
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.pdf}, 
+	url_presentation = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.presentation.pdf},
+}
+
+
